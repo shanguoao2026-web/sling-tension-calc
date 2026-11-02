@@ -1,0 +1,22 @@
+{
+  "name": "sling-tension-calc",
+  "version": "1.0.0",
+  "description": "Static multi-leg sling tension calculator",
+  "license": "MIT",
+  "author": "shanguoao2026-web",
+  "type": "module",
+  "bin": {
+    "sling-tension-calc": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node test/cli.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.0.0"
+  }
+}
